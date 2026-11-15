@@ -1,26 +1,37 @@
 # Hi, I'm SAGE 👋
 
-**PyTorch-focused ML Engineer** · neural networks & LLMs · 5 years shipping production Python
+Building neural networks in PyTorch, from the training loop up.
 
-I build models from scratch. I care about the training loop and the data more than the API wrapper around them.
-Currently finishing an **MSc in Data Science** (SASTRA University) and moving fully into applied ML / research engineering.
+### 🛠️ Building
+**🫀 ECG anomaly detection**
+LSTM trained from scratch on heart-rhythm signals to flag anomalous beats.
+Exposed as a tool to an LLM, with Qdrant retrieval for context.
 
-### 🔬 Research interests
-- Inconsistency & uncertainty modeling
-- Paraconsistent learning and non-classical neural networks
-- Graph neural networks
-- Neuro-symbolic AI
+**🤖 FSM tool-calling agent**
+Agent loop written as an explicit finite-state machine over raw LLM API calls. No framework.
+Qdrant for memory, served with FastAPI. Eval harness in progress.
 
-### 🛠️ What I'm building
-- **ECG anomaly expert system**: a self-trained PyTorch LSTM that detects heart-rhythm anomalies, exposed as a tool to an LLM, with Qdrant RAG for clinical context.
-- **Tool-calling FSM agent**: an agent written from scratch as a finite-state machine (raw LLM API + Qdrant + FastAPI, no framework), with an eval harness on the way.
+### 🔬 Exploring
+- **Non-classical logic based neural networks**
+  - Networks grounded in paraconsistent, many-valued and fuzzy logics instead of binary true/false
+  - Belnap's four-valued logic (true / false / both / neither) and annotated evidential logic (Eτ) as a basis for neuron design
+- **Inconsistent data modelling**
+  - Treating contradiction in data as signal, not noise to be cleaned away
+  - Keeping evidence *for* and *against* separately instead of collapsing both into one probability
+  - Telling genuine conflict between sources apart from plain label noise
+- **Paraconsistent learning**
+  - Training objectives and inference that stay meaningful when the data contradicts itself
+- **Uncertainty modelling**
+  - Epistemic vs. aleatoric uncertainty, calibration, evidential deep learning
+- **Graph neural networks**
+  - Message passing, relational inductive biases, reasoning over knowledge graphs
+- **Neuro-symbolic AI**
+  - Logic as differentiable constraints (e.g. Logic Tensor Networks), rule extraction from trained models
 
-### ⚙️ Stack
-`Python` · `PyTorch` · `LangChain` · `LangGraph` · `Qdrant` · `FastAPI` · `ETL / data pipelines` · `REST APIs`
+### ⚙️ Tools
+PyTorch · Python · Qdrant · LangGraph · FastAPI
 
-### 🎮 Commit Grind
-Every commit here earns a rarity from its quality (tests, focus, clear messages, ML work), not from commit count.
-
+### 🎮 Commit log
 <!-- GRIND:START -->
 <img src="./grind-card.svg" alt="Commit Grind card" />
 
@@ -76,5 +87,5 @@ Every commit here earns a rarity from its quality (tests, focus, clear messages,
 </details>
 <!-- GRIND:END -->
 
-### 📫 Reach me
-[LinkedIn](https://www.linkedin.com/in/priyatosh-s-09b2461b3/) · Open to remote / hybrid **ML Engineer** roles
+---
+<sub>5+ years of production Python · MSc Data Science · [LinkedIn](https://www.linkedin.com/in/priyatosh-s-09b2461b3/)</sub>
