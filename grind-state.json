@@ -1,6 +1,6 @@
 {
- "xp": 2820,
- "commits": 133,
+ "xp": 2900,
+ "commits": 135,
  "seen": [
   "e2ccc2d67793",
   "e2ccc2d67793",
@@ -134,7 +134,9 @@
   "ffe42413eac5",
   "c9916c05fc45",
   "4ef987e47014",
-  "cad29915bf48"
+  "cad29915bf48",
+  "efc6d50f2d49",
+  "c16ce13da458"
  ],
  "days": [
   "2022-01-15",
@@ -229,7 +231,7 @@
  "collection": {
   "Clean Docstring": 7,
   "Print Debugger": 14,
-  "Attention Head": 4,
+  "Attention Head": 5,
   "Vector Index Shard": 4,
   "Lint Warning": 12,
   "Untyped Variable": 9,
@@ -242,7 +244,7 @@
   "Type Hint Charm": 2,
   "TODO Comment": 6,
   "Flash Attention Kernel": 1,
-  "Residual Connection": 5,
+  "Residual Connection": 6,
   "Gradient Clipper": 3,
   "Docker Layer": 1,
   "Mixed Precision Core": 5,
@@ -251,7 +253,7 @@
  "camos": {
   "HTML": 25,
   "JavaScript": 14,
-  "Python": 31,
+  "Python": 33,
   "PHP": 1,
   "Jupyter Notebook": 58
  },
@@ -277,40 +279,20 @@
   "architect": "2026-11-09"
  },
  "tags": {
-  "docs": 67,
+  "docs": 69,
   "tested": 17,
   "refactor": 8,
-  "conventional": 5,
-  "feat": 5,
+  "conventional": 7,
+  "feat": 7,
   "ml": 1
  },
  "rarity_count": {
   "Uncommon": 38,
   "Common": 71,
-  "Rare": 21,
+  "Rare": 23,
   "Epic": 3
  },
  "drops": [
-  {
-   "item": "Untyped Variable",
-   "rarity": "Common",
-   "reason": "clean subject",
-   "lucky": false,
-   "xp": 10,
-   "perks": [],
-   "repo": "torch-agentic-scripts",
-   "msg": "Created using Colab"
-  },
-  {
-   "item": "Learning Rate Scheduler",
-   "rarity": "Uncommon",
-   "reason": "focused size, clean subject",
-   "lucky": false,
-   "xp": 20,
-   "perks": [],
-   "repo": "torch-agentic-scripts",
-   "msg": "Created using Colab"
-  },
   {
    "item": "Rusty Semicolon",
    "rarity": "Common",
@@ -340,6 +322,26 @@
    "perks": [],
    "repo": "tensor-sg",
    "msg": "Initial commit"
+  },
+  {
+   "item": "Residual Connection",
+   "rarity": "Rare",
+   "reason": "feat, clean subject, typed/documented",
+   "lucky": false,
+   "xp": 40,
+   "perks": [],
+   "repo": "tensor-sg",
+   "msg": "feat: add commit grind card"
+  },
+  {
+   "item": "Attention Head",
+   "rarity": "Rare",
+   "reason": "feat, focused size, clean subject",
+   "lucky": false,
+   "xp": 40,
+   "perks": [],
+   "repo": "tensor-sg",
+   "msg": "feat: add commit grind card v2"
   }
  ],
  "lang_cache": {

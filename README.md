@@ -79,7 +79,7 @@ PyTorch · Python · Qdrant · LangGraph · FastAPI
 
 - **Common** (7/7): Rusty Semicolon ×11, Stale Cache ×11, Print Debugger ×14, Lint Warning ×12, Untyped Variable ×9, TODO Comment ×6, Requirements.txt ×8
 - **Uncommon** (6/6): Batch Normalizer ×6, Dropout Mask ×10, Learning Rate Scheduler ×12, Docker Layer, Clean Docstring ×7, Type Hint Charm ×2
-- **Rare** (5/5): Attention Head ×4, Residual Connection ×5, Gradient Clipper ×3, Mixed Precision Core ×5, Vector Index Shard ×4
+- **Rare** (5/5): Attention Head ×5, Residual Connection ×6, Gradient Clipper ×3, Mixed Precision Core ×5, Vector Index Shard ×4
 - **Epic** (2/4): Flash Attention Kernel, LoRA Adapter ×2
 - **Legendary** (0/3): —
 - **Mythic** (0/2): —
